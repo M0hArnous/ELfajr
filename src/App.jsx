@@ -1,16 +1,18 @@
-import React from "react";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/footer";
-
+import React from 'react'
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer'
 const App = () => {
   return (
-    <>
+  <>
       <Navbar />
-      <div className="pt-32 mx-auto max-w-7xl ">
+      <div className='pt-32 mx-auto max-w-7xl '>
         <Footer />
-      </div>
-    </>
+    </div>
+  </>
+  
+  
+  
   );
 };
 
-export default App;
+export default App
