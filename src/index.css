@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat+Subrayada:wght@400;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,6 +11,15 @@
 }
 
 .logo {
-  font-family: "Reem Kufi Ink", sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
   font-style: normal;
+}
+.herofont{
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+}
+
+.primary-btn{
+  @apply bg-[#0e7490] px-6 py-3 rounded-full
+  hover:!scale-110 hover:!shadow-xl duration-300
 }
